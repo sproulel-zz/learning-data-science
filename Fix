@@ -1,0 +1,11 @@
+import random
+for x in range(1):
+  secnum = random.randint(1,101)
+  guess = input('guess:')
+  guess = int(guess)
+  if guess > secnum:
+     print('your guess is too high')
+  elif guess < secnum:
+    print('your guess is too low')
+  else:
+  print('you guessed right')

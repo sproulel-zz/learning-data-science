@@ -1,0 +1,10 @@
+age = input('How old are you?')
+age = int(age)
+if age >= 25:
+    print('you can drink, rent cars, and vote.')
+elif age >= 21:
+    print('You can drink. You can vote. You can not rent cars')
+elif age >= 18:
+    print('You can vote, but you can not drink')
+else:
+    print('You can not do anything because you are a baby')

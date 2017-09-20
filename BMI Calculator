@@ -1,0 +1,8 @@
+def calculate_BMI(H,W):
+    nBmi = W/(H**2)
+    return nBmi
+w = float(input('weight in KG: '))
+h = float(input('Height in meters: '))
+BMI = calculate_BMI(h,w)
+print('Bmi:')
+print(BMI)
