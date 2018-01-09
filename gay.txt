@@ -1,7 +1,0 @@
-I want to know. My.
-Life.
-characters: 25
-words:5
-lines: 2
-sentences: 4
-average sentence length: 1.25
