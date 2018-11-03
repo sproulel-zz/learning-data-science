@@ -190,7 +190,7 @@ def check_win(board):
 
 def make_board(x=3, y=3):
     if not x % y == 0:
-        print('Make your board a square or rectangle asshole')
+        print('Make your board a square or rectangle')
         return None
     board = []
     print(x, y)
@@ -214,6 +214,6 @@ def choose_or_die():
 
 clear()
 print('Do you want to play the game?!')
-print('Tic-Tac-Toy by Directory Alexei Matusevski and some other guy:')
+print('Tic-Tac-Toy by Directory Alexei Matusevski and Lucas Sproule:')
 with_ai = choose_or_die()
 game(size)
