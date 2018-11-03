@@ -138,7 +138,7 @@ def exit_or_not(score):
     if cont == 'y':
         return True
     if cont == 'n':
-        print("Fine fuck you we didn't want you to play our game anyway asshole")
+        print("Fine you suck... we didn't want you to play our game anyway")
         return False
 
 
